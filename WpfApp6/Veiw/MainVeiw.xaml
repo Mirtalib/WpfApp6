@@ -6,7 +6,22 @@
         xmlns:local="clr-namespace:WpfApp6.Veiw"
         mc:Ignorable="d"
         Title="MainVeiw" Height="450" Width="800">
-    <Grid>
+    <StackPanel HorizontalAlignment="Center">
+        <ComboBox></ComboBox>
+        <TextBlock Text="Make"></TextBlock>
+        <TextBlock Text="{Binding Car.Make}"></TextBlock>
+        <TextBlock Text="Model"></TextBlock>
+        <TextBlock Text="{Binding Car.Model}"></TextBlock>
+        <TextBlock Text="Year"></TextBlock>
+        <TextBlock Text="{Binding Car.Year}"></TextBlock>
+
+        <StackPanel Orientation="Horizontal">
+            <Button  Command="{Binding ShowCommand}" Content="Show" ></Button>
+            <Button  Command="{Binding EditCommand}" Content="Edit" ></Button>
+            <Button  Command="{Binding AddCommand}" Content="Add" ></Button>
+            <Button  Command="{Binding DeleteCommand}" Content="Delete" ></Button>
+            
+        </StackPanel>
                         
-    </Grid>
+    </StackPanel>
 </Window>

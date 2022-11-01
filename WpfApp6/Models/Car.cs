@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace WpfApp6.Models
 {
-    public class Car
+    public class Car : Entity
     {
+        public string? Make { get; set; }    
+        public string? Model { get; set; }
+        public int Year { get; set; }
+            
     }
 }
