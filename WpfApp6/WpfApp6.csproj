@@ -7,4 +7,13 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Servis\" />
+    <Folder Include="User Control\" />
+    <Folder Include="Static Files\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Resourse Dictionaries\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
 </Project>
