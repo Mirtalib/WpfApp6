@@ -14,14 +14,11 @@ using System.Windows.Shapes;
 
 namespace WpfApp6.Veiw
 {
-    /// <summary>
-    /// Interaction logic for EditVeiw.xaml
-    /// </summary>
+
     public partial class EditVeiw : Window
     {
         public EditVeiw()
-        {
-            InitializeComponent();
-        }
+            =>InitializeComponent();
+    
     }
 }
